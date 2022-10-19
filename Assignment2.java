@@ -19,20 +19,26 @@ public class Assignment2 {
         for (int l = 0; l != 5;  l++) {
             System.out.println("MULLET");
         }
-        // char array
+         // 4. Create a char array that consists all of the characters of your FIRST NAME and use a for loop to print each character of your FIRST NAME. 
+
+     char[] firstnameCharacters = { 'V', 'I', 'N', 'C', 'E', 'N', 'T', 'J', 'A', 'Y' }; 
+
+     for (int count4 = 0; count4 < firstnameCharacters.length; count4++){ 
+
+         System.out.println(firstnameCharacters[count4]);
+
+     } 
+
+  
         
-        String[] myFirstName = {"V","I","N","C","E","N","T","J","A","Y"};
+     // 5. Use a for loop to print the char array of your FIRST NAME in REVERSE order. 
 
-        for (int counter = 0; counter < myFirstName.length; counter++) {
-            System.out.println(myFirstName[counter]);
-        }
+     char[] firstnameReverse = { 'Y', 'A', 'J', 'T', 'N', 'E', 'C', 'N', 'I', 'V' }; 
 
-        // char array in reverse
-        
-        String[] myfirstname = {"Y","A","J","T","N","E","C","N","I","V"};
+     for (int count5 = 0; count5 < firstnameReverse.length; count5++){ 
 
-        for (int l = 0; l < myFirstName.length; l++) {
-            System.out.println(myfirstname[l]);
-}
-    }
+         System.out.println(firstnameReverse[count5]); 
+  }
+
+  } 
 }
