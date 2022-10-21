@@ -31,13 +31,13 @@ public class Assignment2 {
 
   
         
-     // 5. Use a for loop to print the char array of your FIRST NAME in REVERSE order. 
+     //5. Use a for loop to print the char array of your FIRSTNAME in REVERSE order (example: REZILE)
 
-     char[] firstnameReverse = { 'Y', 'A', 'J', 'T', 'N', 'E', 'C', 'N', 'I', 'V' }; 
+        //For loop
+        char[] firstname2 = { 'V', 'I', 'N', 'C', 'E', 'N', 'T', 'J', 'A', 'Y' };
 
-     for (int count5 = 0; count5 < firstnameReverse.length; count5++){ 
-
-         System.out.println(firstnameReverse[count5]); 
+            for (int r = 9  ; r >= 0; r--){
+            System.out.print(firstname2[r]);
   }
 
   } 
